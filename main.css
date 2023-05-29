@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid #14213d;
+    background-color: #ffffff;
+    padding: 3rem;
+    max-width: 75vw;
+}
+
+blockquote {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+figcaption {
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: right;
+    margin-top: 2rem;
+}
